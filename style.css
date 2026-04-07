@@ -1,11 +1,35 @@
 body{
   background-color:#000 ;  
-  color: #fff;
+  color: #00ff2a;
   font-family: sans-serif;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+
 }
 
 .destaque{
     color: #22D4FD;
+}
+
+.botoes{
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+
 }
 
 .botoes a{
@@ -13,4 +37,6 @@ body{
     color: #000;
     text-decoration: none;
     padding: 15px 40px;
+    font-weight: bold;
+    border-radius: 12px;
 }
