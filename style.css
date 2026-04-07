@@ -1,0 +1,16 @@
+body{
+  background-color:#000 ;  
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.destaque{
+    color: #22D4FD;
+}
+
+.botoes a{
+    background-color: #22D4FD;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 40px;
+}
